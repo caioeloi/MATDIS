@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void retornaCoordenadas(int n, int *x, int *y){
+void retornaCoordenadas(unsigned long long int n, unsigned long long int *x, unsigned long long int *y){
 
     if (n == 0)
     {
@@ -42,12 +42,12 @@ void retornaCoordenadas(int n, int *x, int *y){
 
 int main(){
 
-    int x = 0;
-    int y = 0;
-    int n = 10;
+    unsigned long long int x = 0;
+    unsigned long long int y = 0;
+    unsigned long long int n = 10;
     retornaCoordenadas(n, &x, &y);
     printf("\n\n==============================================================================\n\n");
-    printf("Para um N = %d, a saída do caracol noroeste será:\nx = %d  y = %d\n", n, x, y);
+    printf("Para um N = %lld, a saída do caracol noroeste será:\nx = %lld  y = %lld\n", n, x, y);
     printf("\n==============================================================================\n\n");
 
     return 0;
