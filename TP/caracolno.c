@@ -34,7 +34,7 @@ void retornaCoordenadas(unsigned long long int n, unsigned long long int *x, uns
             *x = *x + (volta + 1);
             *y = *y + (volta + 1);
             seta = 1;
-            volta = volta + 2;
+            volta += 2;
         }
         
     }
