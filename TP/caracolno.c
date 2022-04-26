@@ -6,6 +6,7 @@ void retornaCoordenadas(unsigned long long int n, unsigned long long int *x, uns
     {
         *x = 0;
         *y = 0;
+        return;
     }
 
     int seta = 1;
