@@ -28,7 +28,6 @@ void Floyd_triangle_DLoop (int num)
     k = 1;
     for (i = 1; i <= num; i++)  
     {  
-        // inner loop check j should be less than equal to 1 and print the data.  
         for (j = 1; j <= i; j++)  
         {  
             printf(" %2d", k++); // print the number  
