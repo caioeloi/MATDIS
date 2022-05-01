@@ -1,4 +1,4 @@
 Informações sobre o Ambiente Computacional utilizado no desenvolvimento do algoritmo do problema do "Caracol Noroeste", criado pelo aluno Caio Eloi Campos.
 O algoritmo foi realizado no sistema operacional Windowns, utilizando uma máquina virtual chamada WSL, que simula o sistema operacional do Linux.
 Dentro do WSL, foi utilizado a versão 18.04 do Ubunto. O ambiente de desenvolvimento de código utilizado foi o Visual Studio Code, da empresa Microsoft. O compilador utilziado foi o GCC.
-Apesar destas especificações, o código não possui nenhuma particularidade de nenhum dos dois sistemas e/ou compilador que impediria o código de funcionar em outros ambientes, i.e MacOS.
+Apesar destas especificações, o código não possui nenhuma particularidade de nenhum dos dois, sistemas e/ou compilador, que impediria o código de funcionar em outros ambientes, i.e MacOS.
